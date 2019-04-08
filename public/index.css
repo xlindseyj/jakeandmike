@@ -18,6 +18,9 @@ header {
 	text-align: center;
 }
 
+p {
+	text-align: center;
+}
 
 footer {
 	padding: 20px;
@@ -25,16 +28,14 @@ footer {
 	margin-top: 20px;
 }
 
-nav {
+.navbar {
 	overflow: hidden;
 	border: 1px solid #A39171;
 	border-width: 1px 0;
-	list-style: none;
 	text-align: center;
 }
 
 .navbar-nav {
-	list-style-type: none;
 	overflow: hidden;
 	text-align: center;
 }
@@ -62,8 +63,8 @@ nav {
   border-right: none;
 }
 
-@media screen and (max-width: 768px) {
-	
+.active {
+	color: #000;
 }
 
 @media screen and (max-width: 575px) {
