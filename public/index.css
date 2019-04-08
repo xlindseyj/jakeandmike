@@ -7,26 +7,27 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	padding: 10px; 
-	background: #a3a3a3; 
+	background: #fff;
+	width: 960px;
+	padding: 100px 0;
+	margin: 0 auto;
+	color: #A39171;
 }
 
 header {
-	background-color: #fff;
 	padding: 30px; 
 	text-align: center;
 }
 
 
 footer {
-	background: white;
 	padding: 20px;
 	text-align: center;
 	margin-top: 20px;
 }
 
 nav {
-	background-color: #000;
-	color: #fff;
+	color: #000;
 	overflow: hidden;
 }
 
@@ -39,12 +40,11 @@ nav ul {
 }
 
 nav li {
-	float: left;
-	border-right: 1px solid #fff;
+	border-right: 1px solid #A39171;
 }
 
 nav li a {
-	color: #fff;
+	color: #A39171;
 	display: block;
 	font-weight: bold;
 	padding: .5em 1em;
@@ -53,11 +53,10 @@ nav li a {
 }
 
 nav li a:visited {
-	color: #fff;
+	color: #1e28bb;
 }
 
 nav li a:hover {
-	background-color: #fff;
 	color: #000;
 	transition: .5s;
 }
@@ -66,23 +65,28 @@ nav li:last-child {
   border-right: none;
 }
 
-.row:after {
-	content: '';
-	display: table;
-	clear: both;
-}
-
-.section {
-	background-color: white;
-	margin-top: 20px;
-	padding: 20px;
-	max-width: 960px;
-}
-
 @media screen and (max-width: 768px) {
 	
 }
 
 @media screen and (max-width: 414px) {
 	
+}
+
+#nav {
+	border: 1px solid #A39171;
+	border-width: 1px 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#nav li {
+	display: inline;
+}
+
+#nav a {
+	display: inline-block;
+	padding: 10px;
 }
