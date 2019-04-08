@@ -68,8 +68,12 @@ footer {
   border-right: none;
 }
 
-.active {
+.navbar-nav li.active > a {
 	color: #000;
+}
+
+.navbar-nav li.active > a:hover {
+	color: #A39171;
 }
 
 @media screen and (max-width: 575px) {
