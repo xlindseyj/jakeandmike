@@ -1,12 +1,13 @@
 @charset "UTF-8";
 @import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css";
+@import "https://fonts.googleapis.com/css?family=Ubuntu";
 
 * {
 	box-sizing: border-box;
 }
 
 body {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	background: #fff;
 	width: 75%;
 	padding: 50px 0;
