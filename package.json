@@ -1,0 +1,13 @@
+{
+  "name": "jakeandmike",
+  "version": "1.0.0",
+  "description": "jake and mike web design final",
+  "main": "index.js",
+  "repository": "https://github.com/xlindseyj/jakeandmike.git",
+  "author": "jlindsey2@capital.edu",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "firebase": "^5.9.3"
+  }
+}
