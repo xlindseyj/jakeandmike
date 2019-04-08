@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css";
 
 * {
 	box-sizing: border-box;
@@ -6,12 +7,10 @@
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
-	padding: 10px; 
 	background: #fff;
-	width: 960px;
-	padding: 100px 0;
+	width: 75%;
+	padding: 50px 0;
 	margin: 0 auto;
-	color: #A39171;
 }
 
 header {
@@ -27,41 +26,39 @@ footer {
 }
 
 nav {
-	color: #000;
 	overflow: hidden;
+	border: 1px solid #A39171;
+	border-width: 1px 0;
+	list-style: none;
+	text-align: center;
 }
 
-nav ul {
+.navbar-nav {
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
 	overflow: hidden;
 	text-align: center;
 }
 
-nav li {
+.nav-item {
 	border-right: 1px solid #A39171;
 }
 
-nav li a {
+.nav-link {
 	color: #A39171;
-	display: block;
-	font-weight: bold;
-	padding: .5em 1em;
 	text-align: center;
 	text-decoration: none;
 }
 
-nav li a:visited {
-	color: #1e28bb;
+.nav-link:visited {
+	color: #A39171;
 }
 
-nav li a:hover {
+.nav-link:hover {
 	color: #000;
 	transition: .5s;
 }
 
-nav li:last-child {
+.nav-item:last-child {
   border-right: none;
 }
 
@@ -69,24 +66,13 @@ nav li:last-child {
 	
 }
 
-@media screen and (max-width: 414px) {
-	
-}
+@media screen and (max-width: 575px) {
+	.nav-item {
+		border-right: none;
+		border-bottom: 1px solid #A39171;
+	}
 
-#nav {
-	border: 1px solid #A39171;
-	border-width: 1px 0;
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	text-align: center;
-}
-
-#nav li {
-	display: inline;
-}
-
-#nav a {
-	display: inline-block;
-	padding: 10px;
+	.nav-item:last-child {
+		border-bottom: none;
+	}
 }
