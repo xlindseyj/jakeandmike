@@ -23,9 +23,13 @@ p {
 }
 
 footer {
-	padding: 20px;
+	padding: 35px 0;
+	position: fixed;
+	bottom: 0;
+	font-size: 13px;
+	width: inherit;
+	color: #A39171;
 	text-align: center;
-	margin-top: 20px;
 }
 
 .navbar {
