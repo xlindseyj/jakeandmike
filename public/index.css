@@ -15,7 +15,10 @@ body {
 }
 
 header {
-	padding: 30px; 
+	text-align: center;
+}
+
+h3 {
 	text-align: center;
 }
 
@@ -52,11 +55,28 @@ footer {
 	margin: 0 auto;
 }
 
+div.row {
+	justify-content: center;
+}
+
+div.container {
+	padding-top: 5em;
+}
+
+div.col-sm-4.underline h3 {
+	padding-top: 1em;
+}
+
+div.col-sm-4.underline {
+	border-bottom: #A39171 3px solid;
+}
+
 .navbar {
 	overflow: hidden;
 	border: 1px solid #A39171;
 	border-width: 1px 0;
 	text-align: center;
+	justify-content: center;
 }
 
 .navbar-nav {
