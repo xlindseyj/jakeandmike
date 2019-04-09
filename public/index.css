@@ -47,7 +47,7 @@ footer {
 	bottom: 0;
 	font-size: 13px;
 	width: inherit;
-	color: #A39171;
+	color: #000;
 	text-align: center;
 	margin: 0 auto;
 }
@@ -103,5 +103,9 @@ footer {
 
 	.nav-item:last-child {
 		border-bottom: none;
+	}
+	
+	.navbar {
+		border: none;
 	}
 }
