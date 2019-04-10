@@ -45,6 +45,15 @@ p {
 	text-align: center;
 }
 
+iframe {
+	width: 30%;
+	height: 300px;
+	display: inline-block;
+	padding: 20px;
+	margin: 0 auto;
+	/* center somehow **/
+}
+
 footer {
 	padding: 35px 0;
 	bottom: 0;
