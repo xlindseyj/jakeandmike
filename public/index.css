@@ -71,6 +71,14 @@ div.col-sm-4.underline {
 	border-bottom: #A39171 3px solid;
 }
 
+.left {
+	left: 0;
+}
+
+.right {
+	right: 0;
+}
+
 .navbar {
 	overflow: hidden;
 	border: 1px solid #A39171;
