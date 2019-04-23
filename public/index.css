@@ -197,6 +197,15 @@ div.container {
 	.navbar {
 		border: none;
 	}
+
+	img.code {
+		width: 350px;
+		height: 350px;
+	}
+
+	div.col-sm-4 {
+		padding-bottom: 30px;
+	}
 }
 
 @media screen and (max-width: 1022px) {
