@@ -24,10 +24,6 @@ button a {
 	color: #A39171;
 }
 
-/* bug when hovering in between button and link */
-/* text-color doesn't change to white but background changes to gold */
-/* also couldn't get button to center */
-
 .btn-outline-dark {
 	border-color: #A39171;
 	color: white;
@@ -36,6 +32,10 @@ button a {
 .btn-outline-dark:hover {
 	background-color: #A39171;
 	border-color: #A39171;
+}
+
+.btn-outline-dark:hover a {
+	color: white;
 }
 
 header {
@@ -57,10 +57,6 @@ img.mikeimg {
 	display: inline-block;
 	padding: 20px;
 	margin: 0 auto;
-}
-
-.col-sm-12 {
-	padding-bottom: 25px;
 }
 
 img.code {
@@ -106,6 +102,10 @@ iframe {
 }
 
 .col-sm-4 p {
+	padding-bottom: 25px;
+}
+
+.col-sm-12 {
 	padding-bottom: 25px;
 }
 
