@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css";
+@import "./lity.min.css";
 @import "https://fonts.googleapis.com/css?family=Ubuntu";
 
 * {
@@ -48,6 +49,18 @@ h3 {
 img {
 	margin: 0 auto;
 	display: block;
+}
+
+img.mikeimg {
+	width: 33%;
+	height: 300px;
+	display: inline-block;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+.col-sm-12 {
+	padding-bottom: 25px;
 }
 
 img.code {
