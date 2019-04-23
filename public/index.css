@@ -14,6 +14,29 @@ body {
 	margin: 0 auto;
 }
 
+button a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+button a {
+	color: #A39171;
+}
+
+/* bug when hovering in between button and link */
+/* text-color doesn't change to white but background changes to gold */
+/* also couldn't get button to center */
+
+.btn-outline-dark {
+	border-color: #A39171;
+	color: white;
+}
+
+.btn-outline-dark:hover {
+	background-color: #A39171;
+	border-color: #A39171;
+}
+
 header {
 	text-align: center;
 }
@@ -27,9 +50,25 @@ img {
 	display: block;
 }
 
+img.code {
+	width: 850px;
+	height: 650px;
+}
+
+img.divisionlink {
+	width: 500px;
+	height: 300px;
+}
+
 img.logo {
 	width: 150;
 	height: 150px;
+	padding-bottom: 10px;
+}
+
+img.font {
+	width: 650px;
+	height: 300px;
 	padding-bottom: 10px;
 }
 
@@ -46,12 +85,15 @@ p {
 }
 
 iframe {
-	width: 30%;
+	width: 33%;
 	height: 300px;
 	display: inline-block;
 	padding: 20px;
 	margin: 0 auto;
-	/* center somehow **/
+}
+
+.col-sm-4 p {
+	padding-bottom: 25px;
 }
 
 footer {
@@ -72,12 +114,9 @@ div.container {
 	padding-top: 5em;
 }
 
-div.col-sm-4.underline h3 {
-	padding-top: 1em;
-}
-
-div.col-sm-4.underline {
+.underline {
 	border-bottom: #A39171 3px solid;
+	padding: 1em;
 }
 
 .left {
