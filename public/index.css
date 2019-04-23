@@ -206,6 +206,26 @@ div.container {
 	div.col-sm-4 {
 		padding-bottom: 30px;
 	}
+
+	div.col-sm-2 {
+		padding-bottom: 40px;
+	}
+
+	img.mikeimg {
+		display: block;
+		width: 100%;
+	}
+
+	img.divisionlink {
+		width: 100%;
+		display: block;
+		padding-right: 40%;
+	}
+
+	img.font {
+		width: 100%;
+		display: block;
+	}
 }
 
 @media screen and (max-width: 1022px) {
