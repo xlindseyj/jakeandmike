@@ -185,3 +185,10 @@ div.container {
 		border: none;
 	}
 }
+
+@media screen and (max-width: 1022px) {
+	iframe {
+		display: block;
+		width: 100%;
+	}
+}
